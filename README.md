@@ -1,4 +1,4 @@
-# VPX Config Switcher v1.0.0
+# VPX Config Switcher
 
 Gestionnaire de profils de configuration pour **Visual Pinball X**.  
 Basculez instantanément entre vos configs 2D, VR et custom — sans toucher au moindre fichier manuellement.
