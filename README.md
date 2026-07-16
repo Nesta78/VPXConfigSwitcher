@@ -27,7 +27,7 @@ Sur un pincab ou un PC de simulation de flipper, changer de mode (2D vers VR, ou
 - `DMDDevice.ini` — config du DMD virtuel, avec mise à jour automatique après fermeture de VPX si une calibration a été faite
 - `ScreenRes.txt` — résolution et position des fenêtres (playfield, backglass, DMD)
 - **Sortie audio Windows** — bascule le périphérique audio par défaut (casque VR, haut-parleurs cabinet...)
-- **Liens symboliques (Symlinks)** — redirige instantanément des dossiers entiers, idéal pour switcher les PuPVideos entre 2D et VR sans copier les fichiers
+- **Liens symboliques (Symlinks)** — redirige instantanément des dossiers entiers, idéal pour switcher les PuPVideos entre 2D et VR
 
 ### Outils
 - **Éditeur .ini intégré** — coloration syntaxique par sections, clés et valeurs
@@ -118,7 +118,7 @@ On a pinball cabinet or a pinball simulation PC, switching modes (2D to VR, or b
 - `DMDDevice.ini` — virtual DMD config, with automatic update after VPX closes if a table calibration was made
 - `ScreenRes.txt` — window resolution and position (playfield, backglass, DMD)
 - **Windows audio output** — switches the default audio device (VR headset, cabinet speakers...)
-- **Symbolic links (Symlinks)** — instantly redirects entire folders, ideal for switching PuPVideos between 2D and VR without copying files
+- **Symbolic links (Symlinks)** — instantly redirects entire folders, ideal for switching PuPVideos between 2D and VR
 
 ### Tools
 - **Built-in .ini editor** — syntax highlighting for sections, keys and values
