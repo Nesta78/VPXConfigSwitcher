@@ -27,7 +27,8 @@ Sur un pincab ou un PC de simulation de flipper, changer de mode (2D vers VR, ou
 - `DMDDevice.ini` — config du DMD virtuel, avec mise à jour automatique après fermeture de VPX si une calibration a été faite
 - `ScreenRes.txt` — résolution et position des fenêtres (playfield, backglass, DMD)
 - **Sortie audio Windows** — bascule le périphérique audio par défaut (casque VR, haut-parleurs cabinet...)
-- **Liens symboliques (Symlinks)** — redirige instantanément des dossiers entiers, idéal pour switcher les PuPVideos entre 2D et VR
+- **Liens symboliques (Symlinks)** — redirige instantanément des dossiers entiers, idéal pour switcher les PuPVideos entre 2D et VR sans copier les fichiers
+- **Commandes personnalisées** — exécute n'importe quel script `.bat`, `.exe` ou commande Windows à l'activation du profil (utile par exemple pour Future Pinball)
 
 ### Outils
 - **Éditeur .ini intégré** — coloration syntaxique par sections, clés et valeurs
@@ -60,7 +61,7 @@ L'app détecte automatiquement tes exécutables VPX et te guide en deux étapes 
 
 ## Liens symboliques (PuPVideos)
 
-Pour switcher les PuPVideos entre 2D et VR :
+Pour switcher les PuPVideos entre 2D et VR sans dupliquer des centaines de Go :
 
 1. Renomme `PUPVideos` → `PUPVideos_2D`
 2. Crée `PUPVideos_VR` avec ta config VR
@@ -69,6 +70,19 @@ Pour switcher les PuPVideos entre 2D et VR :
    - Profil VR : `C:\...\PUPVideos` → `C:\...\PUPVideos_VR`
 
 L'app crée une Junction NTFS — aucun droit admin requis, switch instantané.
+
+---
+
+## Commandes personnalisées
+
+L'onglet **Commandes personnalisées** dans chaque profil permet d'exécuter n'importe quelle commande Windows à l'activation du profil :
+
+- Lancer un fichier `.bat` : `C:\scripts\mon_script.bat`
+- Lancer un `.exe` : `C:\tools\mondoutil.exe`
+- Commande reg : `reg add "HKCU\..." /v "MaClé" /t REG_DWORD /d 1 /f`
+- Toute autre commande Windows valide
+
+Les commandes s'exécutent silencieusement en arrière-plan, après que tous les autres fichiers ont été appliqués.
 
 ---
 
@@ -118,7 +132,8 @@ On a pinball cabinet or a pinball simulation PC, switching modes (2D to VR, or b
 - `DMDDevice.ini` — virtual DMD config, with automatic update after VPX closes if a table calibration was made
 - `ScreenRes.txt` — window resolution and position (playfield, backglass, DMD)
 - **Windows audio output** — switches the default audio device (VR headset, cabinet speakers...)
-- **Symbolic links (Symlinks)** — instantly redirects entire folders, ideal for switching PuPVideos between 2D and VR
+- **Symbolic links (Symlinks)** — instantly redirects entire folders, ideal for switching PuPVideos between 2D and VR without copying files
+- **Custom commands** — run any `.bat`, `.exe` or Windows command when the profile is activated (can be useful for Future Pinball for example)
 
 ### Tools
 - **Built-in .ini editor** — syntax highlighting for sections, keys and values
@@ -151,7 +166,7 @@ The app automatically detects your VPX executables and guides you through two st
 
 ## Symbolic links (PuPVideos)
 
-To switch PuPVideos between 2D and VR:
+To switch PuPVideos between 2D and VR without duplicating hundreds of GB:
 
 1. Rename `PUPVideos` → `PUPVideos_2D`
 2. Create `PUPVideos_VR` with your VR config
@@ -160,6 +175,19 @@ To switch PuPVideos between 2D and VR:
    - VR profile: `C:\...\PUPVideos` → `C:\...\PUPVideos_VR`
 
 The app creates an NTFS Junction — no admin rights required, instant switch.
+
+---
+
+## Custom commands
+
+The **Custom commands** tab in each profile lets you run any Windows command when the profile is activated:
+
+- Launch a `.bat` file: `C:\scripts\my_script.bat`
+- Launch an `.exe`: `C:\tools\mytool.exe`
+- Registry command: `reg add "HKCU\..." /v "MyKey" /t REG_DWORD /d 1 /f`
+- Any other valid Windows command
+
+Commands run silently in the background, after all other files have been applied.
 
 ---
 
