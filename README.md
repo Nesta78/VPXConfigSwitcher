@@ -1,6 +1,9 @@
 # VPX Config Switcher
 
-> 🇫🇷 [Français](#français) | 🇬🇧 [English](#english)
+## 📖 Documentation / Wiki
+
+🇫🇷 [Tutoriel complet en français](https://github.com/Nesta78/VPXConfigSwitcher/wiki/TUTORIEL_FR)  
+🇬🇧 [Full English Tutorial](https://github.com/Nesta78/VPXConfigSwitcher/wiki/TUTORIAL_EN)
 
 ---
 
