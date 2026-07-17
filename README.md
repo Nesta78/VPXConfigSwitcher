@@ -27,7 +27,7 @@ Sur un pincab ou un PC de simulation de flipper, changer de mode (2D vers VR, ou
 - `DMDDevice.ini` — config du DMD virtuel, avec mise à jour automatique après fermeture de VPX si une calibration a été faite
 - `ScreenRes.txt` — résolution et position des fenêtres (playfield, backglass, DMD)
 - **Sortie audio Windows** — bascule le périphérique audio par défaut (casque VR, haut-parleurs cabinet...)
-- **Liens symboliques (Symlinks)** — redirige instantanément des dossiers entiers, idéal pour switcher les PuPVideos entre 2D et VR sans copier les fichiers
+- **Liens symboliques (Symlinks)** — redirige instantanément des dossiers entiers, idéal pour switcher les PuPVideos entre 2D et VR
 - **Commandes personnalisées** — exécute n'importe quel script `.bat`, `.exe` ou commande Windows à l'activation du profil (utile par exemple pour Future Pinball)
 
 ### Outils
@@ -61,7 +61,7 @@ L'app détecte automatiquement tes exécutables VPX et te guide en deux étapes 
 
 ## Liens symboliques (PuPVideos)
 
-Pour switcher les PuPVideos entre 2D et VR sans dupliquer des centaines de Go :
+Pour switcher les PuPVideos entre 2D et VR:
 
 1. Renomme `PUPVideos` → `PUPVideos_2D`
 2. Crée `PUPVideos_VR` avec ta config VR
@@ -132,7 +132,7 @@ On a pinball cabinet or a pinball simulation PC, switching modes (2D to VR, or b
 - `DMDDevice.ini` — virtual DMD config, with automatic update after VPX closes if a table calibration was made
 - `ScreenRes.txt` — window resolution and position (playfield, backglass, DMD)
 - **Windows audio output** — switches the default audio device (VR headset, cabinet speakers...)
-- **Symbolic links (Symlinks)** — instantly redirects entire folders, ideal for switching PuPVideos between 2D and VR without copying files
+- **Symbolic links (Symlinks)** — instantly redirects entire folders, ideal for switching PuPVideos between 2D and VR
 - **Custom commands** — run any `.bat`, `.exe` or Windows command when the profile is activated (can be useful for Future Pinball for example)
 
 ### Tools
@@ -166,7 +166,7 @@ The app automatically detects your VPX executables and guides you through two st
 
 ## Symbolic links (PuPVideos)
 
-To switch PuPVideos between 2D and VR without duplicating hundreds of GB:
+To switch PuPVideos between 2D and VR:
 
 1. Rename `PUPVideos` → `PUPVideos_2D`
 2. Create `PUPVideos_VR` with your VR config
