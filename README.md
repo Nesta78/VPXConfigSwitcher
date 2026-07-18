@@ -1,3 +1,5 @@
+<img width="400" height="356" alt="vpxconfigswitcher" src="https://github.com/user-attachments/assets/e63cfffe-c6a8-4d51-86b5-9ca8775ecba0" />
+
 # VPX Config Switcher
 
 ## 📖 Documentation / Wiki
